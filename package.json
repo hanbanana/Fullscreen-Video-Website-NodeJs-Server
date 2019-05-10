@@ -1,0 +1,24 @@
+{
+  "name": "fullscreen-video-website-nodejs-server",
+  "version": "1.0.0",
+  "description": "Fullscreen Video Website Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanbanana/Fullscreen-Video-Website-NodeJs-Server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanbanana/Fullscreen-Video-Website-NodeJs-Server/issues"
+  },
+  "homepage": "https://github.com/hanbanana/Fullscreen-Video-Website-NodeJs-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  }
+}
