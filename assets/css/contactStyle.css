@@ -4,7 +4,7 @@
 
   body {
     margin: 0;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     font-size: 17px;
   }
 
@@ -16,7 +16,7 @@ min-width: 100%;
 min-height: 100%;
 } */
 
-  #myVideo {
+  /* #myVideo {
     position: static;
     right: 0;
     top: 0;
@@ -24,6 +24,11 @@ min-height: 100%;
     min-width: 100%;
     min-height: 100%;
     opacity: 0.7;
+  } */
+
+  #contactImage {
+    width: 100%;
+    
   }
 
   .content {
@@ -58,12 +63,13 @@ min-height: 100%;
     z-index: 1;
     overflow: hidden;
     background: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
   }
 
   .navbar-brand {   
     margin-right: 25px;
     margin-left: 25px;
-    font-size: 15px;
+    font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
@@ -80,8 +86,70 @@ min-height: 100%;
   .navbar-brand:hover {    
     transition: .5s;
     background-color: white;
-    color: black;
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: .5px 0 0 currentColor;
   }
 
+  #contactNav {
+    
+    background-color: white;
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: .5px 0 0 currentColor;
+  }
 
+  .content1 {
+    margin-left: 550px;
+    margin-right: 550px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  #myContactRow {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .myfooter {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  #name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+  #email {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+  #phone {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #message {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #colRight {
+    border-left: 1px solid grey;
+    padding-left: 100px;
+  }
   
