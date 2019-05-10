@@ -35,7 +35,7 @@ min-height: 100%;
     position: absolute;
     top: 350px;
     bottom: 300px;
-    background: rgba(0, 0, 0, 0.5);
+    /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
@@ -58,13 +58,36 @@ min-height: 100%;
 
   /* Navigation Bar */
   .navbar { 
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-right: 200px;
     padding-left: 200px;
     z-index: 1;
     overflow: hidden;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.445);
     font-weight: bold;
   }
+
+  .navbar-logo {   
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    /* opacity:0.6; */
+    color: white;
+    text-decoration: none !important;
+
+    /* Prevents .do nothing */
+    /* pointer-events: none; */
+
+  }
+
+ .navbar-logo:hover {
+    color: white;
+ }
+
 
   .navbar-brand {   
     margin-right: 25px;
@@ -151,5 +174,17 @@ min-height: 100%;
   #colRight {
     border-left: 1px solid grey;
     padding-left: 100px;
+  }
+
+  .btn {
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(9, 9, 94);
+    text-shadow: .5px 0 0 currentColor;
+    border-color: rgb(9, 9, 94);
+    padding: 15px 50px 15px 50px;
+    border-width: medium;
+    font-size: 12px;
+    letter-spacing: .3rem;
   }
   

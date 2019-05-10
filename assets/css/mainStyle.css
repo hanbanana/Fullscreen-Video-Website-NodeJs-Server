@@ -23,18 +23,27 @@ min-height: 100%;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  opacity: 0.7;
+  opacity: .8;
 }
 
 .content {
   position: absolute;
-  top: 350px;
+  top: 260px;
   bottom: 300px;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  /* background: rgba(0, 0, 0, 0.5); */
+  color: white;
+  font-size: 100px;
+  font-weight: bolder;
   width: 100%;
-  padding: 20px;
-}
+  padding: 20px; 
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;  
+ }
+
+ #firstP, #secondP {
+  margin-bottom: -40px;  
+ }
 
 #myBtn {
   width: 200px;
@@ -53,11 +62,13 @@ min-height: 100%;
 
 /* Navigation Bar */
 .navbar { 
+  padding-top: 24px;
+  padding-bottom: 24px;
   padding-right: 200px;
   padding-left: 200px;
   z-index: 1;
   overflow: hidden;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.445);
   font-weight: bold;
 }
 
