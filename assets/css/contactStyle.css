@@ -89,7 +89,7 @@ min-height: 100%;
  }
 
 
-  .navbar-brand {   
+  .nav-link {   
     margin-right: 25px;
     margin-left: 25px;
     font-size: 13px;
@@ -106,7 +106,7 @@ min-height: 100%;
   
   }
 
-  .navbar-brand:hover {    
+  .nav-link:hover {    
     transition: .5s;
     background-color: white;
     color: rgba(0, 0, 0, 0.705);
