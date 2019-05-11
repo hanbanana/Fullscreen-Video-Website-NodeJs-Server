@@ -23,7 +23,7 @@ min-height: 100%;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  opacity: .8;
+  opacity: .5;
 }
 
 .content {
@@ -96,10 +96,9 @@ min-height: 100%;
   text-shadow: .5px 0 0 currentColor;
 }
 
-#homeNav {
-  
-  background-color: white;
-  color: rgba(0, 0, 0, 0.705);
+#homeNav {  
+  font-size: 13px;
+  color: white;
   text-shadow: .5px 0 0 currentColor;
 }
 
