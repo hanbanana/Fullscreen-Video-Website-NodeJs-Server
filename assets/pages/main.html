@@ -18,6 +18,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
@@ -28,26 +31,49 @@
 <body>
 
   <nav class="navbar fixed-top" id="topnav">
-    <a class="navbar-brand" href="#">WLBM</a>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="/" id="homeNav">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/" id="aboutUsNav">ABOUT US</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/" id="productionNav">PORTFOLIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/contact" id="contactNav">CONTACT</a>
-        </li>
-      </ul>
+    <a class="navbar-brand" href="/">WLBM</a>
+
+    <ul class="nav justify-content-end" id="listNav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/" id="homeNav">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="aboutUsNav">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="productionNav">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact" id="contactNav">CONTACT</a>
+      </li>
+    </ul>
+
     <!-- <a class="navbar-brand ml-auto" id="homeNav" href="/">HOME</a>
-    <a class="navbar-brand" id="aboutUsNav" href="#news">ABOUT US</a>
-    <a class="navbar-brand" id="productionNav" href="#news">PRODUCTION</a>
-    <a class="navbar-brand" id="portfolioNav" href="#news">PORTFOLIO</a>
-    <a class="navbar-brand" id="contactNav" href="/contact">CONTACT</a> -->
+            <a class="navbar-brand" id="aboutUsNav" href="#news">ABOUT US</a>
+            <a class="navbar-brand" id="productionNav" href="#news">PRODUCTION</a>
+            <a class="navbar-brand" id="portfolioNav" href="#news">PORTFOLIO</a>
+            <a class="navbar-brand" id="contactNav" href="/contact">CONTACT</a> -->
+  </nav>
+
+  <nav class="navbar fixed-top" id="topnav1">
+
+    <a class="navbar-brand" href="/">WLBM</a>
+
+    <ul class="nav" id="listNav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/" id="homeNav"><i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="aboutUsNav"><i class="fas fa-users"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="productionNav"><i class="fas fa-folder-open"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact" id="contactNav"><i class="fas fa-envelope"></i></a>
+      </li>
+    </ul>
+
   </nav>
 
 
@@ -60,14 +86,13 @@
   </div>
 
   <div class="content text-center">
-      <p id="firstP">WLBM</p>
-      <p id="secondP">FASHION</p>
-      <p id="thirdP">BUSINESS</p>
+    <p id="firstP">WLBM</p>
+    <p id="secondP">FASHION</p>
+    <p id="thirdP">BUSINESS</p>
 
     <!-- <button id="myBtn" onclick="myFunction()">Pause</button> -->
   </div>
-
-  <div class="content1 text-center">
+  <div class="content1">
     <h1>Heading</h1>
     <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis
       neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad
@@ -196,8 +221,9 @@
       Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English
       versions from the 1914
       translation by H. Rackham.</p>
-
   </div>
+
+  
 
   <div class="myfooter text-center">
     <hr>

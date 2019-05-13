@@ -18,6 +18,9 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -28,28 +31,51 @@
 
 <body>
 
-    <nav class="navbar fixed-top" id="topnav">
-        <a class="navbar-brand" href="#">WLBM</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="/" id="homeNav">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/" id="aboutUsNav">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/" id="productionNav">PORTFOLIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact" id="contactNav">CONTACT</a>
-            </li>
-          </ul>
-        <!-- <a class="navbar-brand ml-auto" id="homeNav" href="/">HOME</a>
+  <nav class="navbar fixed-top" id="topnav">
+    <a class="navbar-brand" href="/">WLBM</a>
+
+    <ul class="nav justify-content-end" id="listNav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/" id="homeNav">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="aboutUsNav">ABOUT US</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="productionNav">PORTFOLIO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact" id="contactNav">CONTACT</a>
+      </li>
+    </ul>
+
+    <!-- <a class="navbar-brand ml-auto" id="homeNav" href="/">HOME</a>
         <a class="navbar-brand" id="aboutUsNav" href="#news">ABOUT US</a>
         <a class="navbar-brand" id="productionNav" href="#news">PRODUCTION</a>
         <a class="navbar-brand" id="portfolioNav" href="#news">PORTFOLIO</a>
         <a class="navbar-brand" id="contactNav" href="/contact">CONTACT</a> -->
-      </nav>
+  </nav>
+
+  <nav class="navbar fixed-top" id="topnav1">
+
+    <a class="navbar-brand" href="/">WLBM</a>
+
+    <ul class="nav" id="listNav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/" id="homeNav"><i class="fas fa-home"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="aboutUsNav"><i class="fas fa-users"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/" id="productionNav"><i class="fas fa-folder-open"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/contact" id="contactNav"><i class="fas fa-envelope"></i></a>
+      </li>
+    </ul>
+
+  </nav>
 
 
   <div id="firstDiv">
@@ -57,12 +83,13 @@
   </div>
 
   <div class="content">
-    <h1 class="text-center">CONTACT</h1>
+    <h1 class="text-center contactName">CONTACT</h1>
     <!-- <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis
       neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad
       mutat oblique delicatissimi pro.</p>
     <button id="myBtn" onclick="myFunction()">Pause</button> -->
   </div>
+
 
   <div class="content1 text-center">
 
@@ -77,14 +104,15 @@
   <div class="row" id="myContactRow">
     <div class="col-md-6" id="colLeft">
 
-        <p><img class="alignnone wp-image-358" src="/images/contactImage.jpg" alt="" width="151" height="64" sizes="(max-width: 151px) 100vw, 151px"></p>
+      <p><img class="alignnone wp-image-358" src="/images/contactImage.jpg" alt="" width="151" height="64"
+          sizes="(max-width: 151px) 100vw, 151px"></p>
 
-        <p>12345 University Dr<br>
-          Los Angeles, CA 90001<br>
-          Tel: 123-456-7890<br>
-          Fax: 123-456-7890<br>
-          Web: <a href="https://www.google.com/">www.google.com</a><br>
-          Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>12345 University Dr<br>
+        Los Angeles, CA 90001<br>
+        Tel: 123-456-7890<br>
+        Fax: 123-456-7890<br>
+        Web: <a href="https://www.google.com/">www.google.com</a><br>
+        Email: <a href="mailto:info@example.com">info@example.com</a></p>
 
     </div>
 
@@ -93,16 +121,16 @@
 
       <form class="contactForm">
         <p><br>
-          <input type="text" name="Name" value="" size="40" class="" id="name" placeholder="Name" required></p>
+          <input type="text" name="Name" value="" size="35" class="" id="name" placeholder="Name" required></p>
 
         <p>
-          <input type="email" name="Email" value="" size="40" class="" id="email" placeholder="Email" required></p>
+          <input type="email" name="Email" value="" size="35" class="" id="email" placeholder="Email" required></p>
 
         <p>
-          <input type="tel" name="Phone" value="" size="40" class="" id="phone" placeholder="Phone" required></p>
+          <input type="tel" name="Phone" value="" size="35" class="" id="phone" placeholder="Phone" required></p>
 
         <p>
-          <textarea name="Message" cols="42" rows="10" class="" id="message" placeholder="Message" required></textarea>
+          <textarea name="Message" cols="37" rows="10" class="" id="message" placeholder="Message" required></textarea>
         </p>
 
 
@@ -148,17 +176,93 @@
     </div>
   </div>
 
+  <div id="myContactRow1">
+    <div class="text-center" id="colTop">
+
+      <p><img class="alignnone wp-image-358" src="/images/contactImage.jpg" alt="" width="151" height="64"
+          sizes="(max-width: 151px) 100vw, 151px"></p>
+
+      <p>12345 University Dr<br>
+        Los Angeles, CA 90001<br>
+        Tel: 123-456-7890<br>
+        Fax: 123-456-7890<br>
+        Web: <a href="https://www.google.com/">www.google.com</a><br>
+        Email: <a href="mailto:info@example.com">info@example.com</a></p>
+
+    </div>
+    <br>
+
+    <div class="text-center" id="colBottom">
+
+
+      <form class="contactForm">
+        <p><br>
+          <input type="text" name="Name" value="" size="30" class="" id="name" placeholder="Name" required></p>
+
+        <p>
+          <input type="email" name="Email" value="" size="30" class="" id="email" placeholder="Email" required></p>
+
+        <p>
+          <input type="tel" name="Phone" value="" size="30" class="" id="phone" placeholder="Phone" required></p>
+
+        <p>
+          <textarea name="Message" cols="32" rows="10" class="" id="message" placeholder="Message" required></textarea>
+        </p>
+
+        <button type="submit" class="btn" id="submit"><strong>SUBMIT</strong></button>
+
+        <!-- <p><label for="g-recaptcha-response">recaptcha</label></p> -->
+        <!-- <div class="wpcf7-form-control-wrap text-center">
+            <div data-sitekey="6LeYk2gUAAAAAIXCPHzd4_b8Q_UUhARvh_4BnrtG"
+              class="wpcf7-form-control g-recaptcha wpcf7-recaptcha">
+              <div style="width: 304px; height: 78px;">
+                <div><iframe
+                    src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeYk2gUAAAAAIXCPHzd4_b8Q_UUhARvh_4BnrtG&amp;co=aHR0cDovL3d3dy5taWFzZmFzaGlvbi5jb206ODA.&amp;hl=en&amp;v=v1555968629716&amp;size=normal&amp;cb=cuwwc3ycqb95"
+                    width="304" height="78" role="presentation" name="a-esrn268s6sv1" frameborder="0" scrolling="no"
+                    sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                </div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                  style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+              </div>
+            </div>
+  
+            <noscript>
+              <div style="width: 302px; height: 422px;">
+                <div style="width: 302px; height: 422px; position: relative;">
+                  <div style="width: 302px; height: 422px; position: absolute;">
+                    <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LeYk2gUAAAAAIXCPHzd4_b8Q_UUhARvh_4BnrtG"
+                      frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+                    </iframe>
+                  </div>
+                  <div
+                    style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+                    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+                      style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+                            </textarea>
+                  </div>
+                </div>
+              </div>
+            </noscript> -->
 
 
 
-  <div class="myfooter text-center">
-    <hr>
-    <footer>
-      <p>Copyright WLBM Inc. 2019</p>
-    </footer>
-  </div>
 
-  <script src="/javascript/app.js"></script>
+
+      </form>
+    </div>
+
+
+
+
+
+
+    <div class="myfooter text-center">
+      <hr>
+      <footer>
+        <p>Copyright WLBM Inc. 2019</p>
+      </footer>
+    </div>
+
+    <script src="/javascript/app.js"></script>
 
 
 </body>

@@ -26,6 +26,11 @@ min-height: 100%;
     opacity: 0.7;
   } */
 
+  /* #firstDiv {
+    min-width: 1021px;
+    
+  } */
+
   #contactImage {
     width: 100%;
     
@@ -38,7 +43,7 @@ min-height: 100%;
     /* background: rgba(0, 0, 0, 0.5); */
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
+    padding: 20px;    
   }
 
   #myBtn {
@@ -58,8 +63,8 @@ min-height: 100%;
 
   /* Navigation Bar */
   .navbar { 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
     padding-right: 200px;
     padding-left: 200px;
     z-index: 1;
@@ -67,8 +72,11 @@ min-height: 100%;
     background: rgba(0, 0, 0, 0.445);
     font-weight: bold;
   }
+  
 
-  .navbar-logo {   
+  
+
+  .navbar-brand {   
     margin-right: 25px;
     margin-left: 25px;
     font-size: 13px;
@@ -84,14 +92,14 @@ min-height: 100%;
 
   }
 
- .navbar-logo:hover {
+ .navbar-brand:hover {
     color: white;
  }
 
 
   .nav-link {   
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 17px;
+    margin-left: 17px;
     font-size: 13px;
     padding-left: 10px;
     padding-right: 10px;
@@ -121,17 +129,16 @@ min-height: 100%;
   }
 
   .content1 {
-    margin-left: 550px;
-    margin-right: 550px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+      
+    max-width: 1021px;
+    width: 800px;
+    margin: 100px auto 100px auto;
   }
 
   #myContactRow {
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    max-width: 1021px;
+    width: 800px;
+    margin: 100px auto 100px auto;
   }
 
   .myfooter {
@@ -187,4 +194,212 @@ min-height: 100%;
     font-size: 12px;
     letter-spacing: .3rem;
   }
+
+  #topnav1 {
+      display: none;
+  }
+
+  #myContactRow1 {
+      
+    max-width: 1021px;
+    width: 400px;
+    margin: 100px auto 100px auto;
+  }
+
+  #colTop {
+    max-width: 1021px;
+    width: 300px;
+    margin: 50px auto 50px auto;
+  }
+ 
+  #myContactRow1 {
+    display: none;
+}
+
+
+  @media (min-width:1021px) { 
+
+
+    }
   
+    @media screen and (max-width: 1020px) { 
+      /* Large Desktop */ 
+
+        .content1 {
+            max-width: 1020px;
+            width: 500px;
+            margin: 60px auto 60px auto;
+          }
+          #firstDiv {
+            max-width: 1019px;
+            min-width: 779px;
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 250px;
+            bottom: 100px;
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;    
+          }
+
+          .nav-link {   
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            /* opacity:0.6; */
+            color: white;    
+    
+          }
+
+          #listNav {
+            float: right; 
+          }
+
+          .navbar { 
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-right: 80px;
+            padding-left: 80px;
+            z-index: 1;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.445);
+            font-weight: bold;
+          }
+
+          #topnav {
+            display: none;
+        }
+
+        #topnav1 {
+            display: inline;
+        }
+
+        .myfooter {
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+
+          #myContactRow {
+            display: none;
+        }
+
+        #myContactRow1 {
+            display: block;
+        }
+
+    }
+    
+    @media screen and (max-width: 780px) { 
+    /* tablet */ 
+
+        .content1 {
+            max-width: 780px;
+            width: 400px;
+            margin: 40px auto 40px auto;
+          }
+          
+          #firstDiv {
+            max-width: 780px;
+            min-width: 481px;
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 150px;
+            bottom: 100px;
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;    
+          }
+
+          .nav-link {   
+            margin-right: 7px;
+            margin-left: 7px;
+            font-size: 12px;
+            padding-left: 6px;
+            padding-right: 6px;
+            border-radius: 20px;
+            /* opacity:0.6; */
+            color: white;         
+          }
+
+          .navbar { 
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-right: 20px;
+            padding-left: 20px;
+            z-index: 1;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.445);
+            font-weight: bold;
+          }
+          .myfooter {
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+
+          #myContactRow1 {
+            max-width: 780px;
+            min-width: 481px;
+            
+          }
+
+          #colTop {                   
+            margin: 40px auto 40px auto;
+          }
+
+          #colBottom {               
+            margin: 40px auto 40px auto;
+          }
+
+    }
+
+    @media screen and (max-width: 480px) { 
+    /* mobile */ 
+
+        .content1 {
+            max-width: 480px;
+            width: 300px;
+            margin: 30px auto 30px auto;
+          }
+
+          #firstDiv {
+            max-width: 479px;
+         
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 100px;
+            bottom: 100px;
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: #f1f1f1;
+            width: 100%;
+            padding: 20px;    
+          }
+
+          .myfooter {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+    
+    }
+
+
+    
