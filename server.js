@@ -21,6 +21,10 @@ app.get('/contact', function (req, res) {
     res.sendFile(path.join(__dirname + '/assets/pages/contact.html'));    
 });
 
+app.get('/aboutus', function (req, res) {
+    res.sendFile(path.join(__dirname + '/assets/pages/aboutus.html'));    
+});
+
 app.listen(PORT, function() {
     console.log("App listening on PORT: " + PORT);
 })

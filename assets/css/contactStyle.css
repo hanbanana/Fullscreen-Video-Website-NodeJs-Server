@@ -41,9 +41,14 @@ min-height: 100%;
     top: 350px;
     bottom: 300px;
     /* background: rgba(0, 0, 0, 0.5); */
-    color: #f1f1f1;
+    color: orange;
     width: 100%;
     padding: 20px;    
+  }
+
+  h1 {
+    font-size: 5em;
+    font-weight: bolder;
   }
 
   #myBtn {
@@ -225,7 +230,10 @@ min-height: 100%;
 
 
   @media (min-width:1021px) { 
-
+      
+        /* #contactImage {
+            max-height: 800px;        
+            } */
 
     }
   
@@ -248,10 +256,15 @@ min-height: 100%;
             top: 250px;
             bottom: 100px;
             /* background: rgba(0, 0, 0, 0.5); */
-            color: #f1f1f1;
+            color: orange;
             width: 100%;
             padding: 20px;    
           }
+
+          h1 {
+            font-size: 4em;
+          }
+        
 
           .nav-link {   
             margin-right: 10px;
@@ -326,10 +339,15 @@ min-height: 100%;
             top: 150px;
             bottom: 100px;
             /* background: rgba(0, 0, 0, 0.5); */
-            color: #f1f1f1;
+            color: orange;
             width: 100%;
             padding: 20px;    
           }
+
+          h1 {
+            font-size: 3em;
+          }
+        
 
           .nav-link {   
             margin-right: 7px;
@@ -396,11 +414,16 @@ min-height: 100%;
             left: 35px;
         
             /* background: rgba(0, 0, 0, 0.5); */
-            color: #f1f1f1;
+            color: orange;
             width: 100%;
             padding: 20px;    
             
           }
+
+          h1 {
+            font-size: 2em;
+          }
+        
 
           .myfooter {
             margin-left: 50px;

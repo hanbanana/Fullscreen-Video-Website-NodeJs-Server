@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+  }
+
+  /* #myVideo {
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+} */
+
+  /* #myVideo {
+    position: static;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.7;
+  } */
+
+  /* #firstDiv {
+    min-width: 1021px;
+    
+  } */
+
+  #contactImage {
+    width: 100%;      
+    opacity: 1;
+  }
+
+  .content {
+    position: absolute;
+    top: 350px;
+    bottom: 300px;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: orange;
+    width: 100%;
+    padding: 20px;    
+  }
+
+  h1 {
+    font-size: 5em;
+    font-weight: bolder;
+  }
+
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #myBtn:hover {
+    background: #ddd;
+    color: black;    
+  }
+
+  /* Navigation Bar */
+  .navbar { 
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-right: 200px;
+    padding-left: 200px;
+    z-index: 1;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.445);
+    font-weight: bold;
+  }
+  
+
+  
+
+  .navbar-brand {   
+    margin-right: 25px;
+    margin-left: 25px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    /* opacity:0.6; */
+    color: white;
+    text-decoration: none !important;
+
+    /* Prevents .do nothing */
+    /* pointer-events: none; */
+
+  }
+
+ .navbar-brand:hover {
+    color: white;
+ }
+
+
+  .nav-link {   
+    margin-right: 17px;
+    margin-left: 17px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    /* opacity:0.6; */
+    color: white;
+
+/*   Use three below code for text stroke with transparent text
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow; */
+  
+  }
+
+  .nav-link:hover {    
+    transition: .5s;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: .5px 0 0 currentColor;
+  }
+
+  #aboutUsNav {
+    
+    background-color: white;
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: .5px 0 0 currentColor;
+  }
+
+  .content1 {
+      
+    max-width: 1021px;
+    width: 800px;
+    margin: 100px auto 100px auto;
+  }
+
+  #myContactRow {
+    max-width: 1021px;
+    width: 800px;
+    margin: 100px auto 100px auto;
+  }
+
+  .myfooter {
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+  #name {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+  #email {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  
+  #phone {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #message {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #colRight {
+    border-left: 1px solid grey;
+    padding-left: 100px;
+  }
+
+  .btn {
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(9, 9, 94);
+    text-shadow: .5px 0 0 currentColor;
+    border-color: rgb(9, 9, 94);
+    padding: 15px 50px 15px 50px;
+    border-width: medium;
+    font-size: 12px;
+    letter-spacing: .3rem;
+  }
+
+  #topnav1 {
+      display: none;
+  }
+
+  #myContactRow1 {
+      
+    max-width: 1021px;
+    width: 400px;
+    margin: 100px auto 100px auto;
+  }
+
+  #colTop {
+    max-width: 1021px;
+    width: 300px;
+    margin: 50px auto 50px auto;
+  }
+ 
+  #myContactRow1 {
+    display: none;
+}
+
+.myfooter {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+
+
+  @media (min-width:1021px) { 
+
+
+    }
+  
+    @media screen and (max-width: 1020px) { 
+      /* Large Desktop */ 
+
+        .content1 {
+            max-width: 1020px;
+            width: 500px;
+            margin: 60px auto 60px auto;
+          }
+          #firstDiv {
+            max-width: 1019px;
+            min-width: 779px;
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 250px;
+            bottom: 100px;
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: orange;
+            width: 100%;
+            padding: 20px;    
+          }
+
+          h1 {
+            font-size: 4em;
+          }
+
+          .nav-link {   
+            margin-right: 10px;
+            margin-left: 10px;
+            font-size: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 20px;
+            /* opacity:0.6; */
+            color: white;    
+    
+          }
+
+          #listNav {
+            float: right; 
+          }
+
+          .navbar { 
+            padding-top: 18px;
+            padding-bottom: 18px;
+            padding-right: 80px;
+            padding-left: 80px;
+            z-index: 1;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.445);
+            font-weight: bold;
+          }
+
+          #topnav {
+            display: none;
+        }
+
+        #topnav1 {
+            display: inline;
+        }
+
+        .myfooter {
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+      
+
+          #myContactRow {
+            display: none;
+        }
+
+        #myContactRow1 {
+            display: block;
+        }
+
+    }
+    
+    @media screen and (max-width: 780px) { 
+    /* tablet */ 
+
+        .content1 {
+            max-width: 780px;
+            width: 400px;
+            margin: 40px auto 40px auto;
+          }
+          
+          #firstDiv {
+            max-width: 780px;
+            min-width: 481px;
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 150px;
+            bottom: 100px;
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: orange;
+            width: 100%;
+            padding: 20px;    
+          }
+
+          h1 {
+            font-size: 3em;
+          }
+
+          .nav-link {   
+            margin-right: 7px;
+            margin-left: 7px;
+            font-size: 12px;
+            padding-left: 6px;
+            padding-right: 6px;
+            border-radius: 20px;
+            /* opacity:0.6; */
+            color: white;         
+          }
+
+          .navbar { 
+            padding-top: 13px;
+            padding-bottom: 13px;
+            padding-right: 20px;
+            padding-left: 20px;
+            z-index: 1;
+            overflow: hidden;
+            background: rgba(0, 0, 0, 0.445);
+            font-weight: bold;
+          }
+          .myfooter {
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+
+          #myContactRow1 {
+            max-width: 780px;
+            min-width: 481px;
+            
+          }
+
+          #colTop {                   
+            margin: 40px auto 40px auto;
+          }
+
+          #colBottom {               
+            margin: 40px auto 40px auto;
+          }
+
+    }
+
+    @media screen and (max-width: 480px) { 
+    /* mobile */ 
+
+        .content1 {
+            max-width: 480px;
+            width: 300px;
+            margin: 30px auto 30px 95px;
+          }
+
+          #firstDiv {
+            max-width: 479px;
+         
+            
+          }
+
+          .content {
+            position: absolute;
+            top: 100px;
+            left: 35px;
+        
+            /* background: rgba(0, 0, 0, 0.5); */
+            color: orange;
+            width: 100%;
+            padding: 20px;    
+            
+          }
+
+          h1 {
+            font-size: 2em;
+          }
+
+          .myfooter {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 100px;
+            margin-bottom: 50px;
+          }
+    
+    }
+
+
+    
